@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Era Cibernética | Interfaz Futurista</title>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">CYBERNETIC</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Inicio</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#services" class="nav-link">Servicios</a></li>
+                    <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn-login" id="loginBtn">Iniciar Sesión</button>
+                <button class="btn-register" id="registerBtn">Registrarse</button>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Canvas para animaciones de circuitos -->
+    <canvas id="circuitCanvas" class="circuit-canvas"></canvas>
+
+    <!-- SECCIÓN HERO -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="text-glow">ERA</span>
+                <span class="text-gradient">CIBERNÉTICA</span>
+            </h1>
+            <p class="hero-subtitle">Bienvenido al futuro digital • Interfaz Neurotecnológica Avanzada</p>
+            <button class="btn-primary" id="heroBtn">Explorar Ahora</button>
+        </div>
+        <div class="hero-grid"></div>
+    </section>
+
+    <!-- SECCIÓN SOBRE EL PROYECTO -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre la Visión</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>La Era Cibernética representa la convergencia de la tecnología, la innovación y la experiencia humana. En este espacio, exploramos las fronteras de lo posible en el mundo digital.</p>
+                    <p>Nuestro enfoque innovador combina diseño futurista, funcionalidad avanzada y experiencia de usuario excepcional.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Posibilidades</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Digital</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2025</div>
+                        <div class="stat-label">Futuro</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicios Digitales</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Velocidad Extrema</h3>
+                    <p>Procesamiento instantáneo con latencia mínima</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">🔐</div>
+                    <h3>Seguridad Cuántica</h3>
+                    <p>Protección avanzada con encriptación neural</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">🌐</div>
+                    <h3>Conectividad Global</h3>
+                    <p>Red distribuida en todo el mundo</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Diseño Inteligente</h3>
+                    <p>Interfaces adaptativas y responsivas</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Análisis Avanzado</h3>
+                    <p>Datos en tiempo real con IA predictiva</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Innovación Continua</h3>
+                    <p>Evolución constante y actualizaciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Portafolio de Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <h3>Sistema Neural</h3>
+                        <p>Red neuronal avanzada</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <h3>Interfaz Holográfica</h3>
+                        <p>Visualización 3D interactiva</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <h3>Data Stream</h3>
+                        <p>Procesamiento de datos masivos</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <h3>Blockchain Quantum</h3>
+                        <p>Cadena de bloques cuántica</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Comunicación Digital</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="contactName" placeholder="Nombre" required>
+                    <span class="input-highlight"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="contactEmail" placeholder="Email" required>
+                    <span class="input-highlight"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="contactMessage" placeholder="Mensaje" rows="5" required></textarea>
+                    <span class="input-highlight"></span>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Transmisión</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="#about">Visión</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">𝕏</a>
+                        <a href="#" class="social-link">◈</a>
+                        <a href="#" class="social-link">◇</a>
+                        <a href="#" class="social-link">▲</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Era Cibernética | Tecnología del Futuro</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/auth/auth.js"></script>
+    <script src="js/modules/animations.js"></script>
+    <script src="js/modules/header.js"></script>
+    <script src="js/modules/hero.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

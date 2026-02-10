@@ -1,0 +1,50 @@
+:root {
+    /* Colores Primarios - Neón */
+    --neon-blue: #00d4ff;
+    --neon-cyan: #00ffff;
+    --neon-purple: #b300ff;
+    --neon-green: #00ff41;
+    --neon-pink: #ff006e;
+    
+    /* Colores de Fondo */
+    --bg-dark: #0a0a0a;
+    --bg-darker: #050505;
+    --bg-card: #1a1a2e;
+    --bg-transparent: rgba(10, 10, 10, 0.7);
+    
+    /* Grises */
+    --gray-light: #e0e0e0;
+    --gray-medium: #808080;
+    --gray-dark: #2a2a2a;
+    
+    /* Sombras */
+    --shadow-glow: 0 0 20px var(--neon-blue);
+    --shadow-glow-purple: 0 0 20px var(--neon-purple);
+    --shadow-soft: 0 10px 40px rgba(0, 212, 255, 0.1);
+    
+    /* Tipografía */
+    --font-primary: 'Courier New', monospace;
+    --font-secondary: 'Arial', sans-serif;
+    
+    /* Tamaños */
+    --container-width: 1200px;
+    --transition-fast: 0.3s ease;
+    --transition-smooth: 0.6s ease;
+    
+    /* Espaciado */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-xxl: 4rem;
+}
+
+/* Modo oscuro por defecto (ya que es el tema principal) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-light: #1a1a2e;
+        --text-primary: #ffffff;
+        --text-secondary: #b0b0b0;
+    }
+}
