@@ -29,7 +29,7 @@
     }
 }
 
-/* Móviles grandes (480px - 768px) */
+/* Móviles grandes (480px - 767px) */
 @media (max-width: 768px) {
     .nav {
         display: none;

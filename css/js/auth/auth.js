@@ -251,7 +251,7 @@ function handleRegister(event) {
         showNotification(result.message, 'success');
         setTimeout(() => {
             switchAuthForm('login');
-        }, 1000);
+        }, 1001);
     } else {
         showNotification(result.message, 'error');
     }

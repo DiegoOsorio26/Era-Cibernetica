@@ -104,7 +104,7 @@ class CircuitAnimator {
             particle.y = Math.max(0, Math.min(this.height, particle.y));
 
             // Dibujar partícula
-            const colors = ['#00d4ff', '#00ffff', '#b300ff', '#00ff41'];
+            const colors = ['#42a8bd', '#00ffff', '#b300ff', '#00ff41'];
             const color = colors[Math.floor(Math.random() * colors.length)];
             this.ctx.fillStyle = `${color}${Math.floor(particle.life * 255).toString(16)}`;
             this.ctx.fillRect(particle.x - 1, particle.y - 1, 2, 2);

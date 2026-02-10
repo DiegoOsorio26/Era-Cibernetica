@@ -466,7 +466,7 @@
 
 /* ==================== FOOTER ==================== */
 .footer {
-    background: rgba(5, 5, 5, 0.9);
+    background: rgba(8, 7, 7, 0.9);
     border-top: 2px solid var(--neon-purple);
     padding: var(--spacing-xxl) var(--spacing-lg) var(--spacing-lg);
 }

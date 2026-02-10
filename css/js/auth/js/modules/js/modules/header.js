@@ -148,7 +148,7 @@ const headerStyles = `
         left: 0;
         right: 0;
         flex-direction: column;
-        background: rgba(10, 10, 10, 0.95);
+        background: rgba(10, 6, 6, 0.95);
         border-bottom: 2px solid var(--neon-blue);
         padding: var(--spacing-lg);
         gap: var(--spacing-lg);

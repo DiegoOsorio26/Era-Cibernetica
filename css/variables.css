@@ -9,7 +9,7 @@
     /* Colores de Fondo */
     --bg-dark: #0a0a0a;
     --bg-darker: #050505;
-    --bg-card: #1a1a2e;
+    --bg-card: #08080c;
     --bg-transparent: rgba(10, 10, 10, 0.7);
     
     /* Grises */
@@ -43,7 +43,7 @@
 /* Modo oscuro por defecto (ya que es el tema principal) */
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-light: #1a1a2e;
+        --bg-light: #0e0e3d;
         --text-primary: #ffffff;
         --text-secondary: #b0b0b0;
     }
